@@ -24,7 +24,7 @@
 
 1. Sur le page web nous pouvons voir que le titre qui se trouve dans l'onglet du navigateur n'est pas bon et que les caractères spéciaux de la page ne s'affichent pas correctement
 
-2. Il y a plusieurs problèmes, tout d'abord dans la balise <meta charset="UFT-8"> le F et le T sont inversé, ensuite la balise de fermeture </body> se trouve en dehors de la balise <html>, il manque la balise <title> à l'intérieur de la balise <head>.
+2. Il y a plusieurs tout d'abord la balise de fermeture </body> se trouve en dehors de la balise <html>, il manque la balise <title> à l'intérieur de la balise <head>.
 
 3. 
 
