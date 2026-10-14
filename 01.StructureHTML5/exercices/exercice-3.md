@@ -1,0 +1,3 @@
+### Exercice 3 — Page de présentation d'un service informatique
+
+Pour mettre le document en français j'ai utilisé la balise <html lang="fr">, ensuite j'ai changé le titre de l'onglet à l'aide de la balise <title> que j'ai placé dans la balise <head>, pour écrire un titre dans la page j'ai utilisé la balise <h1> que j'ai placé à l'intérieur de la balise <body>, pour créer le texte j'ai utilisé la balise <p> que j'ai aussi placé à l'intérieur de la balise <body>. Afin de vérifier que la page s'affiche correctement sur mobile j'ai rétréci mon navigateur au maximum et vérifié que la balise <meta name="viewport" content="width=device-width, initial-scale=1.0"> est bien présente. Pour pouvoir faire un commentaire j'ai utilisé cette balise <!-- -->.

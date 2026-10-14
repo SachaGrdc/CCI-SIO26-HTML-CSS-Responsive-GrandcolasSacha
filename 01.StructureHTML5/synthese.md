@@ -20,4 +20,3 @@ Voici un le code de base d'une page HTML :
 <body>
 </body>
 </html>
-
