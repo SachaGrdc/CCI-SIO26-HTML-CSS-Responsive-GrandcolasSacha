@@ -23,20 +23,19 @@
 ###### Document B
 
 1. Sur le page web nous pouvons voir que le titre qui se trouve dans l'onglet du navigateur n'est pas bon et que les caractères spéciaux de la page ne s'affichent pas correctement
-
 2. Il y a plusieurs tout d'abord la balise de fermeture </body> se trouve en dehors de la balise <html>, il manque la balise <title> à l'intérieur de la balise <head>.
 
 3. 
 
-4) <!DOCTYPE html>
-    <html lang="fr">
-        <head>
-            <meta charset="UTF-8">
-            <title>Page</title>
-        </head>
-        <body>
-            <h1>Ma page</h1>
-            <p>Élève de première année</p>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page</title>
+    </head>
+    <body>
+        <h1>Ma page</h1>
+        <p>Élève de première année</p>
+    </body>
+</html>
 
