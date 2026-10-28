@@ -1,43 +1,43 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html>     <!-- J'ai utilisé cette balise pour définir le type de document sur HTML5 -->
+<html lang="fr">    <!-- J'ai utilisé cette balise pour définir la langue du document -->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">      <!-- J'ai utilisé cette balise pour définir le décodage des caractères -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Installer apache</title>
+    <title>Installer apache</title>     <!-- J'ai utilisé cette balise pour définir le titre de la page dans l'onglet du navigateur -->
 </head>
-<body>
-    <main>
-        <header>
-            <h1>Installer un serveur web Apache sur Debian</h1>
-            <p>Apache est un serveur web libre et très répandu. Il permet de publier des sites sur un réseau local ou sur Internet.</p>
+<body>      <!-- J'ai utilisé cette balise pour définir le corps de la page -->
+    <main>      <!-- J'ai utilisé cette balise afin de définir ce contenu comme le contenu principal de la page -->
+        <header>    <!-- J'ai utilisé ceci afin de définir l'en-tête de la page -->
+            <h1>Installer un serveur web Apache sur Debian</h1>     <!-- J'ai considéré que ce serait le titre principal de la page -->
+            <p>Apache est un serveur web libre et très répandu. Il permet de publier des sites sur un réseau local ou sur Internet.</p>     <!-- J'ai utilisé cette balise pour mettre un paragraphe -->
         </header>
-        <section>
+        <section>   <!-- J'ai utilisé section afin de structurer les différentes parties du contenu car la balise <article> sert à mettre un contenu autonome -->
             <h2>Prérequis</h2>
             <p>Avant d'installer Apache, assurez-vous que votre système est à jour.</p>
         </section>
         <section>
-            <h2>Installation</h2>
+            <h2>Installation</h2>   <!-- J'ai considéré qu'il s'agit d'un titre moins important, c'est pourquoi je n'ai pas utilisé la balise h1, de plus il est conseillé de n'avoir qu'une seule balise h1 par page -->
             <p>Voici la procédure dans l'ordre :</p>
-            <ol>
-                <li>Mettre à jour la liste des paquets.</li>
+            <ol>    <!-- J'ai utilisé une liste numérotée car l'ordre est important -->
+                <li>Mettre à jour la liste des paquets.</li>    <!-- J'ai utilisé afin d'ajouter un élément dans la liste -->
                 <li>Installer la paquet apache2.</li>
                 <li>Vérifier que le service est démarré.</li>
                 <li>Ouvrir la page http://localhost dans un navigateur.</li>
             </ol>
-            <p><strong>Attention :</strong> n'ouvrez jamais le port 80 vers Internet sans avoir configuré un pare-feu.</p>
+            <p><strong>Attention :</strong> <!-- J'ai utilisé la balise strong car il s'agit d'un message important, si ce n'était pas important j'aurais utilisé la balise <b>  --> n'ouvrez jamais le port 80 vers Internet sans avoir configuré un pare-feu.</p>
         </section>
         <section>
             <h2>Caractéristiques principales</h2>
             <p>Apache offre notamment :</p>
-            <ul>
+            <ul>    <!-- J'ai utilisé cette balise car il s'agit d'une liste sans ordre particulier -->
                 <li>Une configuration modulaire.</li>
                 <li>La gestion de plusieurs sites sur un même serveur.</li>
                 <li>Une grande documentation communautaire.</li>
             </ul>
         </section>
     </main>
-    <footer>
-        <h3>Pour aller plus loin</h3>
+    <footer>    <!-- J'ai utilisé cette balise pour définir le pied de page de la page -->
+        <h3>Pour aller plus loin</h3>   <!-- J'ai utilisé cette balise car je considère cette partie moins importante que les autres -->
         <p>Consultez la documentation officielle, notamment la section sur les hôtes virtuels.</p>
     </footer>
 </body>
