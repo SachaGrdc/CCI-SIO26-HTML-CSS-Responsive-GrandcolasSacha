@@ -50,16 +50,25 @@
 
 
 
-​	Extrait E : La balise <h2> n'est pas un titre, il vaut mieux la remplacer par une balise <p>, de plus le mot "Attention" est important c'est pourquoi il vaut mieux le mettre en gras
+​	Extrait E : La balise <h2> n'est pas un titre, il vaut mieux la remplacer par une balise <p>, de plus cette phrase est important c'est pourquoi il vaut mieux la mettre en gras
 
 ​	Correction proposée : 
 
 ```
 <h1>Procédure de mise à jour</h1>
-<p><strong>Attention :</strong> ne pas éteindre le serveur pendant la mise à jour</p>
+<p><strong>Attention : ne pas éteindre le serveur pendant la mise à jour</strong></p>
 <ol>
   <li>Lancer la mise à jour.</li>
   <li>Attendre la fin du traitement.</li>
 </ol>
 ```
 
+
+
+2.  S1 : On peut utiliser la balise <ol> pour numéroter les étapes de la configuration
+
+   S2 : On peut utiliser la balise <ul> pour énumérer sans ordre particulire
+
+   S3 : On peut utiliser la balise <strong> pour mettre en évidence la phrase
+
+   S4 : On peut utiliser la balise <em> pour insister sur ce mot 
