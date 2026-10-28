@@ -38,7 +38,7 @@
 
 
 
-​	Extrait D : La balise <h2> se trouve dans une balise <p>
+​	Extrait D : La balise <h2> se trouve dans une balise <p> ce qui n'est pas possible
 
 ​	Correction proposée : 
 
@@ -50,7 +50,7 @@
 
 
 
-​	Extrait E : La balise <h2> n'est pas un titre, il vaut mieux la remplacer par une balise <p>, de plus cette phrase est important c'est pourquoi il vaut mieux la mettre en gras
+​	Extrait E : La balise <h2> n'est pas un titre, il vaut mieux la remplacer par une balise <p>, de plus cette phrase est importante c'est pourquoi il vaut mieux la mettre en gras
 
 ​	Correction proposée : 
 
@@ -67,8 +67,8 @@
 
 2.  S1 : On peut utiliser la balise <ol> pour numéroter les étapes de la configuration
 
-   S2 : On peut utiliser la balise <ul> pour énumérer sans ordre particulire
+   S2 : On peut utiliser la balise <ul> pour énumérer sans ordre particulier
 
    S3 : On peut utiliser la balise <strong> pour mettre en évidence la phrase
 
-   S4 : On peut utiliser la balise <em> pour insister sur ce mot 
+   S4 : On peut utiliser la balise <em> pour insister sur ce mot
