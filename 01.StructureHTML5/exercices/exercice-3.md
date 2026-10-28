@@ -1,3 +1,65 @@
-### Exercice 3 — Page de présentation d'un service informatique
+# Exercice 3 — Corriger une hiérarchie de titres et choisir les bonnes balises
 
-Pour mettre le document en français j'ai utilisé la balise <html lang="fr">, ensuite j'ai changé le titre de l'onglet à l'aide de la balise <title> que j'ai placé dans la balise <head>, pour écrire un titre dans la page j'ai utilisé la balise <h1> que j'ai placé à l'intérieur de la balise <body>, pour créer le texte j'ai utilisé la balise <p> que j'ai aussi placé à l'intérieur de la balise <body>. Afin de vérifier que la page s'affiche correctement sur mobile j'ai rétréci mon navigateur au maximum et vérifié que la balise <meta name="viewport" content="width=device-width, initial-scale=1.0"> est bien présente. Pour pouvoir faire un commentaire j'ai utilisé cette balise <!-- -->.
+
+
+1. Extrait A : On passe d'une balise <h1> à une balise <h3> sans passer par une balise <h2>
+
+   Correction proposée : 
+
+   ```
+   <h1>Les réseaux</h1>
+   <h2>Le modèle OSI</h2>
+   <h2>Le modèle TCP/IP</h2>
+   ```
+
+​	
+
+​	Extrait B : Il y a 3 balises <h1> alors qu'il est recommandé de ne pas avoir plusieurs balises <h1> dans une même page
+
+​	Correction proposée :
+```html
+<h1>Guide du technicien</h1>
+<h2>Installation</h2>
+<h2>Configuration</h2>
+```
+
+​	
+
+​	Extrait C : La page commence avec un <h2> alors qu'il faut utiliser une <h1>, on passe aussi de <h2> à <h4> sans passer par 	<h3>, de plus les balises sont dans le mauvais ordre
+
+​	Correction proposée : 
+
+```html
+<h1>Sauvegardes</h1>
+<h2>Sauvegarde complète</h2>
+<h2>Sauvegarde incrémentale</h2>
+<h2>Conclusion</h2>
+```
+
+
+
+​	Extrait D : La balise <h2> se trouve dans une balise <p>
+
+​	Correction proposée : 
+
+```
+<h1>Serveur DNS</h1>
+<h2>Rôle du serveur</h2>
+<p>Il traduit les noms de domaine en adresses IP.</p>
+```
+
+
+
+​	Extrait E : La balise <h2> n'est pas un titre, il vaut mieux la remplacer par une balise <p>, de plus le mot "Attention" est important c'est pourquoi il vaut mieux le mettre en gras
+
+​	Correction proposée : 
+
+```
+<h1>Procédure de mise à jour</h1>
+<p><strong>Attention :</strong> ne pas éteindre le serveur pendant la mise à jour</p>
+<ol>
+  <li>Lancer la mise à jour.</li>
+  <li>Attendre la fin du traitement.</li>
+</ol>
+```
+
