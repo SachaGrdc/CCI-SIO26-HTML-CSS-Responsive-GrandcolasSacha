@@ -17,3 +17,8 @@
 
 
 1) La balise <article> sert à créer un contenu autonome, il peut facilement être sorti de la page. La balise <section> elle sert  à regrouper du contenu thématiquement lié, elle est le choix par défaut lorsque aucun élément plus précis n'existe.
+2) La balise <main> contient le contenu principal de la page, ça veut dire qu'elle ne se répète pas d'une page à une autre (pas de menu ni de pied de page), elle doit être unique
+3) La balise <nav> dit au navigateur que c'est un bloc de liens de navigation, ce qui permet par exemple aux lecteurs d’écran d’y accéder directement.
+4) Oui il peut en avoir plusieurs, chaque balise <section> ou <article> peut contenir un <header>
+5) Il faut utiliser la balise <div> quand aucun élément sémantique ne convient et qu’il faut uniquement un conteneur, c'est souvent utilisé pour le CSS
+
