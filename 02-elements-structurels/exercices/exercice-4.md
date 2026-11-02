@@ -6,16 +6,4 @@
 
   
 
-J’ai choisi la balise <header> car elle permet de définir le bandeau de tête du site
-
-J’ai choisi la balise <nav> car elle permet de regrouper les trois liens de navigation principaux du site.
-
-J’ai choisi la balise <main> car elle permet de définir cette partie de la page comme la principale
-
-J’ai choisi la balise <section> pour « Présentation », « Activités » et « Contact » car elle permet de regrouper chaque partie thématique de la page dans un bloc
-
-J’ai choisi la balise <article> pour chaque activité car elle permet de présenter un contenu indépendant qui pourrait garder son sens s’il était repris ailleurs
-
-J’ai choisi la balise <footer> car elle permet de définir le pied de page
-
-Je n'ai pas utilisé de balise <div>
+Le nom du club est dans un <header> car c’est le haut de la page. Le menu de trois liens est dans un <nav> parce que c’est la navigation principale. Tout le contenu est dans un seul <main> car il n’en faut qu’un par page. Les parties « Présentation », « Activités » et « Contact » sont des <section> puisque chacune a son titre et son sujet. Les trois activités sont des <article> car elles sont indépendantes les unes des autres. Les mentions du club sont dans un <footer> en bas de la page. Je n’ai utilisé aucune div car chaque zone a déjà une balise adaptée
