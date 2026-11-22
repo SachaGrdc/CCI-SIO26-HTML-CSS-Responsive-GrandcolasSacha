@@ -1,35 +1,44 @@
+/* Consigne 1 : Tous les paragraphes en gris foncé */
 p {
-    color: gray;
+    color: darkgray;
 }
 
+/* Consigne 2 : Tous les éléments portant la classe important quel que soit leur type en gras */
 .important {
     font-weight: bold;
 }
 
+/* Consigne 3 : L'en-tête d'identifiant avec un fond bleu foncé */
 #entete {
-    background-color: blue;
+    background-color: darkblue;
 }
 
-h1 h2 {
+/* Consigne 4 : Les titres h1 et h2 en police sans empattement */
+h1, h2 {
     font-family: sans-serif;
 }
 
+/* Consigne 5 : Uniquement les paragraphes important en rouge */
 p.important {
     color: red;
 }
 
-.actif {
+/* Consigne 6 : Uniquement le lien portant la classe actif en orange */
+a.actif {
     color: orange;
 }
 
+/* Consigne 7 : Uniquement le paragraphe du pied de page en taille réduite */
 footer p {
-    font-size: 12px;
+    font-size: 0.85em;
 }
 
+/* Consigne 8 : Uniquement les éléments de liste de la section agenda en vert */
 #agenda li {
     color: green;
 }
 
-.important rappel {
+/* Consigne 9 : Uniquement l'élément qui possède à la fois les classes important et rappel en italique */
+.important.rappel {
     font-style: italic;
 }
